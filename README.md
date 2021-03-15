@@ -72,7 +72,7 @@ scanTest:function(flag){
 
 ```
 3. 备注
-下载插件后放到项目根目录下的nativeplugins文件夹（自建）
-在manfest.json中配置该原生插件：manfest.json->App原生插件配置->选择该本地原生插件
-原生插件配置之后，需选择自定义基座运行才能生效：创建自定义基座 —> 选择自定义基座
+* 下载插件后放到项目根目录下的nativeplugins文件夹（自建）
+* 在manfest.json中配置该原生插件：manfest.json->App原生插件配置->选择该本地原生插件
+* 原生插件配置之后，需选择自定义基座运行才能生效：创建自定义基座 —> 选择自定义基座
 
