@@ -1,0 +1,25 @@
+{
+	"name": "ScanCode",
+	"id": "Ly-ScanCode",
+	"version": "0.0.1",
+	"description": "扫码",
+	"_dp_type":"nativeplugin",
+	"_dp_nativeplugin":{
+		"android": {
+			"plugins": [
+				{
+					"type": "module",
+					"name": "Ly-ScanCode",
+					"class": "com.osmium.myscancode.ScanCodeWXModule"
+				}
+			],
+			"integrateType": "aar",
+			"minSdkVersion" : 16,
+            "dependencies": [
+				// "com.alibaba.android:bindingx-core:1.0.3",
+				// "com.alibaba.android:bindingx_weex_plugin:1.0.3",
+				"com.journeyapps:zxing-android-embedded:3.6.0"
+            ]
+		}
+	}
+}
